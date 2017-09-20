@@ -3,11 +3,9 @@
     "id": 1,
     "course": "spark",
     "year": 2016,
-    "student": {
-        "name": "anil1",
-        "id": 11,
-        "course": "spark",
-        "year": 2016
+    "details": {
+        "address": "hyderabad",
+        "pincode": 500001
     }
 }
 {
@@ -21,17 +19,13 @@
     "id": 3,
     "course": "spark",
     "year": 2016,
-    "student": [{
-        "name": "raj1",
-        "id": 31,
-        "course": "spark",
-        "year": 2016
+    "details": [{
+        "address": "hyderabad",
+        "pincode": 500001
     },
     {
-        "name": "raj2",
-        "id": 32,
-        "course": "spark",
-        "year": 2016
+        "address": "banglore",
+        "pincode": 600001
     }]
 }
 {

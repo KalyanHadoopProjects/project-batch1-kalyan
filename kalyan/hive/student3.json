@@ -1,6 +1,6 @@
-{"name":"anil","id":1,"course":"spark","year":2016,"student":{"name":"anil","id":1,"course":"spark","year":2016}}
+{"name":"anil","id":1,"course":"spark","year":2016,"details":{"address":"hyderabad", "pincode": 500001}}
 {"name":"venkat","id":2,"course":"spark","year":2016}
-{"name":"raj","id":3,"course":"spark","year":2016,"student": [{"name":"raj1","id":31,"course":"spark","year":2016},{"name":"raj1","id":32,"course":"spark","year":2016}]}
+{"name":"raj","id":3,"course":"spark","year":2016,"details": [{"address":"hyderabad", "pincode": 500001}, {"address":"banglore", "pincode": 600001}]}
 {"name":"sunil","id":4,"course":"hadoop","year":2015}
 {"name":"anvith","id":5,"course":"hadoop","year":2015}
 {"name":"dev","id":6,"course":"hadoop","year":2015}

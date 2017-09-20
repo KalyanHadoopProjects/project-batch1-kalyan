@@ -3,12 +3,10 @@
 	<id>1</id>
 	<course>spark</course>
 	<year>2016</year>
-	<student>
-		<name>anil1</name>
-		<id>11</id>
-		<course>spark</course>
-		<year>2016</year>
-	</student>
+	<details>
+		<address>hyderabad</address>
+		<pincode>500001</pincode>
+	</details>
 </student>
 <student>
 	<name>venkat</name>
@@ -21,18 +19,14 @@
 	<id>3</id>
 	<course>spark</course>
 	<year>2016</year>
-	<student>
-		<name>raj1</name>
-		<id>31</id>
-		<course>spark</course>
-		<year>2016</year>
-	</student>
-	<student>
-		<name>raj2</name>
-		<id>32</id>
-		<course>spark</course>
-		<year>2016</year>
-	</student>
+	<details>
+		<address>hyderabad</address>
+		<pincode>500001</pincode>
+	</details>
+	<details>
+		<address>banglore</address>
+		<pincode>600001</pincode>
+	</details>
 </student>
 <student>
 	<name>sunil</name>
