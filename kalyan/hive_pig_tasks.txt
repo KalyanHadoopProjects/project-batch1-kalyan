@@ -17,11 +17,27 @@ Team1: using hive
 
 `avro` data convert into `parquet` format
 
+hive - hbase integration
+
+hive (student_hive)
+hbase (student_hbase)
+
+primary key `id`
+
+
 Team2: using hive
 ------------------
 `csv` data convert into `orc` format
 
 `orc` data convert into `tsv` format
+
+
+hive - hbase integration
+
+hive (student_hive)
+hbase (student_hbase)
+
+primary key `id`
 
 
 Team3: using hive
@@ -31,6 +47,13 @@ Team3: using hive
 `json` data convert into `tsv` format
 
 
+hive - hbase integration
+
+hive (student_hive)
+hbase (student_hbase)
+
+primary key `id`
+
 
 Team4: using pig
 ------------------
@@ -39,11 +62,29 @@ Team4: using pig
 `avro` data convert into `parquet` format
 
 
+pig - hbase integration
+
+pig (student_pig)
+hbase (student_hbase)
+
+primary key `id`
+
+
+
 Team5: using pig
 ------------------
 `csv` data convert into `orc` format
 
 `orc` data convert into `tsv` format
+
+
+
+pig - hbase integration
+
+pig (student_pig)
+hbase (student_hbase)
+
+primary key `id`
 
 
 Team6: using pig
@@ -54,6 +95,27 @@ Team6: using pig
 
 
 
+pig - hbase integration
+
+pig (student_pig)
+hbase (student_hbase)
+
+primary key `id`
+
+
+
+
+Production Approach:
+--------------------------
+1. creating `script` file with complete code
+
+2. providing `comments` on each line
+
+3. if possible try to solve with `variables / arguments`
+
+4. run the `script` with command line 
+(hive -f <path of the file> )
+(pig <path of the file> )
 
 
 
