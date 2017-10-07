@@ -1,0 +1,67 @@
+create `student` table in hive / bag in pig
+
+columns: name, id, course, year
+
+sample data: (student.csv)
+-----------------------------
+anil,1,spark,2016
+venkat,2,spark,2016
+raj,3,spark,2016
+sunil,4,hadoop,2015
+anvith,5,hadoop,2015
+dev,6,hadoop,2015
+
+Team1: using hive
+------------------
+`csv` data convert into `avro` format
+
+`avro` data convert into `parquet` format
+
+Team2: using hive
+------------------
+`csv` data convert into `orc` format
+
+`orc` data convert into `tsv` format
+
+
+Team3: using hive
+------------------
+`csv` data convert into `json` format
+
+`json` data convert into `tsv` format
+
+
+
+Team4: using pig
+------------------
+`csv` data convert into `avro` format
+
+`avro` data convert into `parquet` format
+
+
+Team5: using pig
+------------------
+`csv` data convert into `orc` format
+
+`orc` data convert into `tsv` format
+
+
+Team6: using pig
+------------------
+`csv` data convert into `json` format
+
+`json` data convert into `tsv` format
+
+
+
+
+
+
+
+
+
+
+
+
+
+
